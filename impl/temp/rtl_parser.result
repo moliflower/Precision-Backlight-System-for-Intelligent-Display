@@ -1,0 +1,216 @@
+[
+ {
+  "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/MiniLED_driver.v",
+  "InstLine" : 1,
+  "InstName" : "MiniLED_driver",
+  "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/MiniLED_driver.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "MiniLED_driver",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/MiniLED_driver.v",
+    "InstLine" : 26,
+    "InstName" : "SPI7001_25M_1M_rPLL_inst",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/led_part/led_pll/7001_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "SPI7001_25M_1M_rPLL"
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/MiniLED_driver.v",
+    "InstLine" : 32,
+    "InstName" : "u1",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/ramflag_1.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ramflag_1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/ramflag_1.v",
+      "InstLine" : 247,
+      "InstName" : "inst1",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sdpb360/sdpb360.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "sdpb360"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/MiniLED_driver.v",
+    "InstLine" : 40,
+    "InstName" : "u2",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sram_top_pack/sram_top_gowin.vp",
+    "ModuleLine" : 7,
+    "ModuleName" : "sram_top_gowin_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sram_top_pack/sram_top_gowin.vp",
+      "InstLine" : 33,
+      "InstName" : "sram_top_ins",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sram_top_pack/sram_top_gowin.vp",
+      "ModuleLine" : 58,
+      "ModuleName" : "sram_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/MiniLED_driver.v",
+    "InstLine" : 53,
+    "InstName" : "u3",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/SPI7001_pack/SPI7001_gowin.vp",
+    "ModuleLine" : 7,
+    "ModuleName" : "SPI7001_gowin_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/SPI7001_pack/SPI7001_gowin.vp",
+      "InstLine" : 47,
+      "InstName" : "SPI7001_ins",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/SPI7001_pack/SPI7001_gowin.vp",
+      "ModuleLine" : 77,
+      "ModuleName" : "SPI7001"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+  "InstLine" : 22,
+  "InstName" : "lvds_video_top",
+  "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+  "ModuleLine" : 22,
+  "ModuleName" : "lvds_video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+    "InstLine" : 86,
+    "InstName" : "LVDS_7to1_RX_Top_inst",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+    "ModuleLine" : 24,
+    "ModuleName" : "LVDS_7to1_RX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+      "InstLine" : 409,
+      "InstName" : "lvds_71_rx",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/LVDS71RX_1CLK8DATA.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "LVDS71RX_1CLK8DATA",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/LVDS71RX_1CLK8DATA.v",
+        "InstLine" : 509,
+        "InstName" : "LVDS_RX_rPLL_inst",
+        "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/gowin_rpll/LVDS_RX_rPLL.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "LVDS_RX_rPLL"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+      "InstLine" : 474,
+      "InstName" : "bit_aln_ctl_inst",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/bit_align_ctl.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "bit_align_ctl"
+     },
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/lvds_7to1_rx_top.v",
+      "InstLine" : 488,
+      "InstName" : "wd_aln_ctl_inst",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_rx/word_align_ctl.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "word_align_ctl"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+    "InstLine" : 107,
+    "InstName" : "LVDS_7to1_TX_Top_inst",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_tx/lvds_7to1_tx_top.v",
+    "ModuleLine" : 27,
+    "ModuleName" : "LVDS_7to1_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_tx/lvds_7to1_tx_top.v",
+      "InstLine" : 152,
+      "InstName" : "LVDS_TX_rPLL_inst",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_tx/gowin_rpll/LVDS_TX_rPLL.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "LVDS_TX_rPLL"
+     },
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_tx/lvds_7to1_tx_top.v",
+      "InstLine" : 258,
+      "InstName" : "ip_gddr71tx_inst",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_7to1_tx/ip_gddr71tx.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "ip_gddr71tx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+    "InstLine" : 132,
+    "InstName" : "SPI7001_25M_1M_rPLL_inst",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/led_part/led_pll/7001_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "SPI7001_25M_1M_rPLL"
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+    "InstLine" : 138,
+    "InstName" : "u1",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/ramflag_1.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ramflag_1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/ramflag_1.v",
+      "InstLine" : 247,
+      "InstName" : "inst1",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sdpb360/sdpb360.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "sdpb360"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+    "InstLine" : 154,
+    "InstName" : "u2",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sram_top_pack/sram_top_gowin.vp",
+    "ModuleLine" : 7,
+    "ModuleName" : "sram_top_gowin_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sram_top_pack/sram_top_gowin.vp",
+      "InstLine" : 33,
+      "InstName" : "sram_top_ins",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/sram_top_pack/sram_top_gowin.vp",
+      "ModuleLine" : 58,
+      "ModuleName" : "sram_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/lvds_video_top.v",
+    "InstLine" : 167,
+    "InstName" : "u3",
+    "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/SPI7001_pack/SPI7001_gowin.vp",
+    "ModuleLine" : 7,
+    "ModuleName" : "SPI7001_gowin_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/SPI7001_pack/SPI7001_gowin.vp",
+      "InstLine" : 47,
+      "InstName" : "SPI7001_ins",
+      "ModuleFile" : "C:/study/24FPGA/Mini_LED_file/last/Gowin_LVDS_7to1_RX_RefDesign/project/src/SPI7001_pack/SPI7001_gowin.vp",
+      "ModuleLine" : 77,
+      "ModuleName" : "SPI7001"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,17 @@
+-d C:\study\24FPGA\Mini_LED_file\last\Gowin_LVDS_7to1_RX_RefDesign\project\impl\gwsynthesis\lvds_video.vg
+-p GW2A-55C-PBGA484-8
+-pn GW2A-LV55PG484C8/I7
+-cst C:\study\24FPGA\Mini_LED_file\last\Gowin_LVDS_7to1_RX_RefDesign\project\src\lvds_video.cst
+-cfg C:\study\24FPGA\Mini_LED_file\last\Gowin_LVDS_7to1_RX_RefDesign\project\impl\pnr\device.cfg
+-sdc C:\study\24FPGA\Mini_LED_file\last\Gowin_LVDS_7to1_RX_RefDesign\project\src\lvds_video.sdc
+-gao_crc 0011011110101000
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-rtl_gao

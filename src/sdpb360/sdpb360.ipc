@@ -1,0 +1,17 @@
+[General]
+ipc_version=4
+file=sdpb360
+module=sdpb360
+target_device=gw2a55c-005
+type=ram_sdpb
+version=1.0
+
+[Config]
+BYTE_SIZE=0
+DEPTH_A=360
+DEPTH_B=360
+LANG=0
+READ=0
+RESET_MODE=true
+WIDTH_A=16
+WIDTH_B=16
