@@ -1,4 +1,4 @@
 *.md linguist-language=Verilog 
 *.yml linguist-language=Verilog 
 *.html linguist-language=Verilog 
-*.F linguist-language=Verilog 
+*.fs linguist-language=Ignore
